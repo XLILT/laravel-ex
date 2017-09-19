@@ -13,6 +13,38 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 740px) {
+    .index-main-center {
+        margin: auto;
+        padding: 30px 0 102px;
+        width: 300px;
+    }
+    
+    .logo {
+        width: 117px;
+        height: 94px;
+        background: url(../img/KunPeng.png) no-repeat;
+    }
+    
+    .index-table-nav {
+        margin: 20px auto;
+        width: 124px;
+    }
+    
+    .input-wrapper > .form-control {
+        height: 47px;
+        padding: 1em .8em;
+    }
+    
+    .button-wrapper {
+        margin-top: 18px;        
+    }   
+    
+    .sign-btn {
+        width: 100%;        
+    }
+}
+
 @media (min-width: 741px) {
     .index-main {
         text-align: center;
@@ -40,7 +72,7 @@ body {
     .logo {
         width: 117px;
         height: 94px;
-        background: url(/static/img/index/KunPeng.png) no-repeat;
+        background: url(../img/KunPeng.png) no-repeat;
     }
     
     .index-table-nav {
