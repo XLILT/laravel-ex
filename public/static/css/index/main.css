@@ -23,7 +23,7 @@ body {
     .logo {
         width: 117px;
         height: 94px;
-        background: url(../img/KunPeng.png) no-repeat;
+        background: url(/static/img/index/KunPeng.png) no-repeat;
     }
     
     .index-table-nav {
@@ -72,7 +72,7 @@ body {
     .logo {
         width: 117px;
         height: 94px;
-        background: url(../img/KunPeng.png) no-repeat;
+        background: url(/static/img/index/KunPeng.png) no-repeat;
     }
     
     .index-table-nav {
