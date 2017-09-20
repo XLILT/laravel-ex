@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::post('/index/signup', 'User\Signup@signup');
+Route::post('/index/signup', 'SignupController\Signup@signup');
 

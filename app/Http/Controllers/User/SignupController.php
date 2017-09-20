@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
 
-class Signup extends Controller
+class SignupController extends Controller
 {
 	public function signup()
 	{
