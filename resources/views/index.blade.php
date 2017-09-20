@@ -24,7 +24,7 @@
                         </ul>                   
                     </div>
                     <div class="view-signup">
-                        <form class="signup-box" action="" method="POST">
+                        <form class="signup-box" action="/index/signup" method="POST">
                             <div class="input-wrapper">
                                 <input required type="text" class="form-control" placeholder="姓名">
                             </div>                            
