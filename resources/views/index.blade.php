@@ -24,12 +24,12 @@
                         </ul>                   
                     </div>
                     <div class="view-signup">
-                        <form class="signup-box" action="/index/signup" method="POST">
+                        <form class="signup-box" action="/signup" method="POST">
                             <div class="input-wrapper">
                                 <input required type="text" class="form-control" placeholder="姓名">
                             </div>                            
                             <div class="input-wrapper">
-                                <input required type="text" class="form-control" placeholder="手机号">
+                                <input required type="email" class="form-control" placeholder="邮箱">
                             </div>
                             <div class="input-wrapper">
                                 <input required type="password" class="form-control" placeholder="密码">

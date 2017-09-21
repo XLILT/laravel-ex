@@ -12,8 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
-Route::post('/index/signup', 'User\SignupController@signup');
+Route::post('/signup', 'Auth\AuthController@signup');
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
 
